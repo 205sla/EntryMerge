@@ -1,21 +1,34 @@
-root
+my-app
+├── .next
+│   ├── cache
+│   │   ├── swc
+│   │   │   └── plugins
+│   │   └── webpack
+│   │       ├── client-development
+│   │       └── server-development
+│   ├── server
+│   │   ├── app
+│   │   │   ├── api
+│   │   │   └── favicon.ico
+│   │   └── vendor-chunks
+│   ├── static
+│   │   ├── chunks
+│   │   │   ├── app
+│   │   │   └── fallback
+│   │   ├── css
+│   │   │   └── app
+│   │   ├── development
+│   │   ├── media
+│   │   └── webpack
+│   │       └── app
+│   └── types
+│       ├── app
+│       │   └── api
 ├── app
+│   ├── api
+│   │   ├── extract
+│   │   └── merge
+│   ├── components
 │   ├── fonts
-│   │   ├── GeistMonoVF.woff
-│   │   └── GeistVF.woff
-│   ├── favicon.ico
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
+│   └── merge
 ├── docs
-│   └── PRD.md
-├── .eslintrc.json
-├── .gitignore
-├── next-env.d.ts
-├── next.config.mjs
-├── package-lock.json
-├── package.json
-├── postcss.config.mjs
-├── README.md
-├── tailwind.config.ts
-└── tsconfig.json
