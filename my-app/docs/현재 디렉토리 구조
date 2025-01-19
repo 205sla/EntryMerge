@@ -1,0 +1,29 @@
+EntryMerge
+└── my-app
+    ├── app
+    │   ├── api
+    │   │   ├── extract
+    │   │   └── merge
+    │   ├── components
+    │   │   └── FileUpload.tsx
+    │   ├── fonts
+    │   │   ├── GeistMonoVF.woff
+    │   │   └── GeistVF.woff
+    │   ├── merge
+    │   │   └── route.ts
+    │   ├── favicon.ico
+    │   ├── globals.css
+    │   ├── layout.tsx
+    │   └── page.tsx
+    ├── docs
+    │   ├── PRD.md
+    │   └── 현재 디렉토리 구조
+    ├── .eslintrc.json
+    ├── next-env.d.ts
+    ├── next.config.mjs
+    ├── package-lock.json
+    ├── package.json
+    ├── postcss.config.mjs
+    ├── README.md
+    ├── tailwind.config.ts
+    └── tsconfig.json
